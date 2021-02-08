@@ -1,6 +1,6 @@
-<% if params[:input_user] == "i am going to work right now!"] %>
+<% if @input_user == "i am going to work right now!" %>
   <p>GREAT</p>
-<% elsif params[:input_user].end_with?("?") %>
+<% elsif @input_user.end_with?("?") %>
  <p>"Silly question, get dressed and go to work !"</p>
 <% else %>
   <p>go work ! </p>

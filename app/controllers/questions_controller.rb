@@ -3,6 +3,7 @@ class QuestionsController < ApplicationController
   end
 
   def answer
+    @input_user = params[:input_user]
   end
 
 end
